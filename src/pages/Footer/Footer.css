@@ -1,0 +1,55 @@
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.Footer h4{
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+}
+.Social-Media-Icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    height: 10vh;
+}
+.Social-Icons{
+    width: 3.5vw;
+    height: 3.5vw;
+    transition: all 0.4s ease-in-out;
+}
+.Social-Icons:hover{
+    scale: 1.25;
+}
+.Footer p{
+    font-size: clamp(.6rem, 0.75vw, 1rem);
+}
+@media screen and (max-width: 991px){
+    .Social-Media-Icons{
+        height: 8vh;
+        width: 30vw;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Social-Icons{
+        height: 6vw;
+        width: 6vw;
+    }
+}
+@media screen and (max-width: 425px) {
+    .Social-Media-Icons{
+        height: 5vh;
+        width: 40vw;
+    }
+    .Social-Icons{
+        height: 8vw;
+        width: 8vw;
+    }
+}

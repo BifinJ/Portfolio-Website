@@ -1,0 +1,122 @@
+:root {
+    --width: 16vw;
+    --height: 50vh;
+}
+.work-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.My-Works{
+    width: 80dvw;
+    height: fit-content;
+}
+.carousel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    z-index: 0;
+}
+.image{
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+.work2{
+    width: calc(var(--width));
+    height: calc(var(--height));
+    transition: all 0.3s ease-in-out;
+}
+.work1, .work3{
+    width: calc(var(--width)*0.8);
+    height: calc(var(--height)*0.8);
+}
+.work0, .work4{
+    width: calc(var(--width)*0.8*0.8);
+    height: calc(var(--height)*0.8*0.8);
+}
+.description{
+    font-family: Montserrat;
+    font-size: clamp(1rem, 1.3vw, 1.5rem);
+    color: #FFF;
+    text-align: center;
+    position: absolute;
+    padding-top: 60px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.work2:hover{
+    opacity: 0.5;
+    filter: blur(2px);
+}
+.Work:hover .description{
+    visibility: visible;
+    opacity: 1;
+    padding-top: 0;
+}
+
+.arrows{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -30px;
+}
+.arrow{
+    width: fit-content;
+    height: fit-content;
+    background: transparent;
+    color: white;
+    font-size: 4vw;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+
+.Work-Mobile-View{
+    height: 85dvh;
+    display: none;
+}
+.slider-container{
+    height: 80dvh;
+    width: 80dvw;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+}
+.slider-container .slider{
+    scroll-snap-align: start;
+}
+.slider img{
+    width: 80dvw;
+    height: 80dvh;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width: 768px){
+    .Work-Lap-View{
+        display: none;
+    }
+    .Work-Mobile-View{
+        display: grid;
+        place-items: center;
+    }
+}

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Contact-Details-Content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2%;
+    height: 90dvh;
+}
+
+.Contact-left, .Contact-right{
+    width: 100%;
+    height: 100%;
+    padding: 0 10%;
+}
+.Contact-Details{
+    width: 100%;
+    height: 100%;
+    background: rgba(197, 197, 197, 0.50);
+    box-shadow: -6px 6px 20px 8px rgba(40, 40, 40, 0.502);
+    display: grid;
+    grid-template-rows: 22% 22% 22% 22%;
+    place-items: center;
+    align-content: space-evenly;
+}
+.Box{
+    width: 85%;
+    height: 100%;
+    background: #282828;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.25) inset;
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 20% 80%;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(1rem, 1.75vw, 3rem);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+}
+.Box p{
+    width: 20dvw;
+}
+.form{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    align-content: space-between;
+    grid-template-rows: 12% 12% 12% 40% 12%;
+}
+.form>*{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background: rgba(197, 197, 197, 0.50);
+    box-shadow: -8px 8px 20px 8px rgba(69, 69, 69, 0.25);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(1rem, 2vw, 1.75rem);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px;
+}
+.form>button{
+    width: 50%;
+    background: #1ec864;
+    box-shadow: 0 0 5px #1ec864;
+    transition: all 0.3s ease-in;
+    border: none;
+    cursor: pointer;
+}
+.form>button:hover{
+    box-shadow: 0 0 5px #1ec864, 0 0 25px #1ec864;
+    background: #FFF;
+    color: #1ec864;
+    border: 2px solid #1ec864;
+}
+::placeholder{
+    color: #FFF;
+}
+
+@media screen and (max-width: 991px){
+    .Contact-Details-Content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: fit-content;
+    }
+    .Contact-left, .Contact-right{
+        height: clamp(50dvh, 70dvh, 80dvh);
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .Box p{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .Contact-left, .Contact-right{
+        padding: 0 5%;
+    }
+    .Box{
+        height: clamp(50%, 70%, 100%);
+    }
+}
+@media screen and (max-width: 480px){
+    .Contact-left, .Contact-right{
+        width: 100%;
+    }
+    .Box{
+        font-size: clamp(0.75rem, 1.5vw, 3rem);
+    }
+}
