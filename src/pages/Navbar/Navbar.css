@@ -37,14 +37,16 @@
     transition: all 0.3s ease-in-out;
 }
 
-.NavBar ul li a, .NavBar-Mobile-View ul li a{
+.passive, .NavBar-Mobile-View ul li a{
     text-decoration: none;
-    color: #fff;
+    color: white;
 }
 
 .NavBar ul li:hover, .NavBar-Mobile-View ul li:hover {
     scale: 1.2;
 }
+
+
 
 
 /* Mobile View */
@@ -114,4 +116,11 @@
     .Nav-Bar{
         display: none;
     }
+}
+.active{
+    color: #fff;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #34e334;
+    text-decoration: underline;
+    text-decoration-color: #34e334;
 }
