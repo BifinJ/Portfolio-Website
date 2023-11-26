@@ -16,15 +16,21 @@ function Contact(){
                         </div>
                         <div className='Box'>
                             <BsFillTelephoneFill/>
-                            <p>+91 9645228789</p>
+                            <a href="tel:9645228789">
+                                <p>+91 9645228789</p>
+                            </a>
                         </div>
                         <div className='Box'>
                             <HiMail/>
-                            <p>jamesbifin@gmail.com</p>
+                            <a href="mailto:jamesbifin@gmail.com">
+                                <p>jamesbifin@gmail.com</p>
+                            </a>
                         </div>
                         <div className='Box'>
                             <BsGlobe/>
-                            <p>www.bifin.github.io</p>
+                            <a href="https://bifinj.github.io/">
+                                <p>www.bifin.github.io</p>
+                            </a>
                         </div>
                     </div>
                 </div>
