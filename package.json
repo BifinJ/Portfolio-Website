@@ -2,12 +2,14 @@
   "name": "portfolio-bifin",
   "private": false,
   "version": "0.0.0",
+  "homepage": "https://bifinj.github.io/Portfolio-Website",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.0.0",
