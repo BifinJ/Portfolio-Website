@@ -3,35 +3,35 @@ import './MyWorks.css';
 
 const Works = [
   {
-    image: '/images/Works/Work1.jpg',
+    image: '/images/Work1.jpg',
     paragraph: 'Description 1',
   },
   {
-    image: '/images/Works/Work2.jpg',
+    image: '/images/Work2.jpg',
     paragraph: 'Description 2',
   },
   {
-    image: '/images/Works/Work3.jpg',
+    image: '/images/Work3.jpg',
     paragraph: 'Description 3',
   },
   {
-    image: '/images/Works/Work4.jpg',
+    image: '/images/Work4.jpg',
     paragraph: 'Description 4',
   },
   {
-    image: '/images/Works/Work5.jpg',
+    image: '/images/Work5.jpg',
     paragraph: 'Description 5',
   },
   {
-    image: '/images/Works/Work6.jpg',
+    image: '/images/Work6.jpg',
     paragraph: 'Description 6',
   },
   {
-    image: '/images/Works/Work7.jpg',
+    image: '/images/Work7.jpg',
     paragraph: 'Description 7',
   },
   {
-    image: '/images/Works/Work8.jpg',
+    image: '/images/Work8.jpg',
     paragraph: 'Description 8',
   },
 ];
@@ -91,28 +91,28 @@ function MyWorks() {
         <div className="Work-Mobile-View">
           <div className="slider-container">
               <div className="slider">
-                <img src="/images/Works/Work1.jpg" alt="" />
+                <img src="/images/Work1.jpg" alt="" />
               </div>
               <div className="slider">
-                <img src="/images/Works/Work2.jpg" alt="" />
+                <img src="/images/Work2.jpg" alt="" />
               </div>
               <div className="slider">
-                <img src="/images/Works/Work3.jpg" alt="" />
+                <img src="/images/Work3.jpg" alt="" />
               </div>
               <div className="slider">
-                <img src="/images/Works/Work4.jpg" alt="" />
+                <img src="/images/Work4.jpg" alt="" />
               </div>
               <div className="slider">
-                <img src="/images/Works/Work5.jpg" alt="" />
+                <img src="/images/Work5.jpg" alt="" />
               </div>
               <div className="slider">
-                <img src="/images/Works/Work6.jpg" alt="" />
+                <img src="/images/Work6.jpg" alt="" />
               </div>
               <div className="slider">
-                <img src="/images/Works/Work7.jpg" alt="" />
+                <img src="/images/Work7.jpg" alt="" />
               </div>
               <div className="slider">
-                <img src="/images/Works/Work8.jpg" alt="" />
+                <img src="/images/Work8.jpg" alt="" />
               </div>
           </div>
         </div>
