@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { GiHamburgerMenu } from "react-icons/Gi";
-import { GrClose } from "react-icons/Gr";
+import { FaBars } from "react-icons/fa";
+import { FaX } from "react-icons/fa6";
 import "./Navbar.css";
 
 function Navbar() {
@@ -48,12 +48,12 @@ function Navbar() {
           </ul>
         </div>
       </div>
-      <GiHamburgerMenu
+      <FaBars
         className={`Menu ${Nav ? "Active" : ""}`}
         onClick={setNavigation}
       />
       <div className={Nav ? "Nav-Bar-Mobile-View" : "Nav-Bar-Mobile-View-Active"}>
-        <GrClose
+        <FaX
           className={`Close ${Nav ? "" : "Active"}`}
           onClick={setNavigation}
         />
