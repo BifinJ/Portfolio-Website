@@ -8,8 +8,8 @@
     z-index: 99;
 }
 .NavBar{
-    width: 80dvw;
-    height: 8dvh;
+    width: 40dvw;
+    height: 6dvh;
     border-radius: 30px;
     opacity: 0.85;
     background: linear-gradient(92deg, rgba(54, 54, 54, 0.19) -16.12%, rgba(218, 218, 218, 0.18) 35.91%, rgba(218, 218, 218, 0.19) 67%, rgba(54, 54, 54, 0.19) 107.97%);
@@ -31,7 +31,7 @@
 .NavBar ul li, .NavBar-Mobile-View ul li{
     font-family: Montserrat;
     color: #fff;
-    font-size: clamp(0.75rem, 1.5vw, 2rem);
+    font-size: clamp(0.75rem, 1vw, 1.5rem);
     list-style: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;

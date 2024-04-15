@@ -11,25 +11,25 @@
     line-height: normal;
 }
 .Footer h4{
-    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    font-size: clamp(0.7rem, 1.3vw, 1.3rem);
 }
 .Social-Media-Icons{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 20vw;
-    height: 10vh;
+    width: 15vw;
+    height: 7vh;
 }
 .Social-Icons{
-    width: 3.5vw;
-    height: 3.5vw;
+    width: 2.3vw;
+    height: 2.3vw;
     transition: all 0.4s ease-in-out;
 }
 .Social-Icons:hover{
     scale: 1.25;
 }
 .Footer p{
-    font-size: clamp(.6rem, 0.75vw, 1rem);
+    font-size: clamp(.4rem, 0.7vw, .7rem);
 }
 @media screen and (max-width: 991px){
     .Social-Media-Icons{

@@ -17,11 +17,13 @@
 .About-left{
     display: grid;
     place-items: center;
-    height: 650px;
+    height: 90%;
+    width: 100%;
+    padding: 5% 0 2% 0;
 }
 .About-left-pic{
-    height: 90%;
-    width: 75%;
+    height: 100%;
+    width: 60%;
     border-radius: 30px;
     background: url(/images/About-pic.JPG), lightgray 50% / cover no-repeat;
     box-shadow: -8px 8px 20px 8px rgba(69, 69, 69, 0.25);
@@ -33,10 +35,8 @@
 .About-Para{
     color: #FFF;
     font-family: Montserrat;
-    font-size: clamp(1rem, 2.25vw, 2rem);
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    font-weight: 100;
 }
 .My-Skills{
     margin-top: 20px;
@@ -44,9 +44,9 @@
 .My-Skills-Heading{
     color: #FFF;
     font-family: Montserrat;
-    font-size: clamp(1.75rem, 3.25vw, 3.25rem);
+    font-size: clamp(1.25rem, 2vw, 2.25rem);
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
     text-decoration-line: underline;
 }
@@ -63,9 +63,9 @@
 .Skills>p{
     color: #FFF;
     font-family: Montserrat;
-    font-size: clamp(.8rem, 1.6vw, 1.5rem);
+    font-size: clamp(.4rem, 1.2vw, 1.2rem);
     font-style: normal;
-    font-weight: 500;
+    font-weight: 100;
     line-height: normal;
 }
 .Skills-level{
@@ -85,9 +85,9 @@
     display: flex;
     align-items: center;
     text-align: left;
-    padding: 0 7px;
-    font-size: clamp(.8rem, 1.6vw, 1.5rem);
-    font-weight: 600;
+    padding: 2px 7px;
+    font-size: clamp(.2rem, 0.8vw, 0.8rem);
+    font-weight: 800;
 }
 .HTML{
     width: 85%;
@@ -120,13 +120,13 @@
     width: 85%;
 }
 .Download-CV{
-    width: clamp(20vw, 22vw, 25vw);
-    height: clamp(4vh, 7vh, 10vh);
+    width: clamp(15vw, 13vw, 15vw);
+    height: clamp(2vh, 5vh, 8vh);
     border-radius: 30px;
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(0.7rem, 1.5vw, 1.8rem);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -137,7 +137,7 @@
 }
 .Download-CV:hover{
     scale: 1.1;
-    font-size: clamp(1.2rem, 2.2vw, 2.2rem);
+    font-size: clamp(0.8rem, 1.7vw, 2rem);
 }
 @media screen and (max-width:991px){
     .About-Content{
